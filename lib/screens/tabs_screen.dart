@@ -35,7 +35,13 @@ class _TabsScreenState extends State<TabsScreen> {
       child: Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
-          title: const Text('Fakegram'),
+          title: const Text(
+            'Fakegram',
+            style: TextStyle(
+              fontFamily: 'DancingScript',
+              fontSize: 32,
+            ),
+          ),
           actions: [
             IconButton(
               onPressed: () {},
