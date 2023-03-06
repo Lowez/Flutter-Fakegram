@@ -33,6 +33,7 @@ class _TabsScreenState extends State<TabsScreen> {
     return DefaultTabController(
       length: 5,
       child: Scaffold(
+        backgroundColor: Colors.black,
         appBar: AppBar(
           title: const Text('Fakegram'),
           actions: [

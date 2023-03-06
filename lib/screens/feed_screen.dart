@@ -1,3 +1,5 @@
+import 'package:fakegram/components/feed.dart';
+import 'package:fakegram/components/stories_list.dart';
 import 'package:flutter/material.dart';
 
 class FeedScreen extends StatelessWidget {
@@ -8,7 +10,8 @@ class FeedScreen extends StatelessWidget {
     return Column(
       // ignore: prefer_const_literals_to_create_immutables
       children: [
-        const Text('FEED'),
+        const StoriesList(),
+        const Feed(),
       ],
     );
   }
