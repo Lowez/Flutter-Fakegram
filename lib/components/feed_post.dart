@@ -17,7 +17,7 @@ class FeedPost extends StatelessWidget {
       child: Column(
         children: [
           ListTile(
-            contentPadding: EdgeInsets.fromLTRB(5, 0, 0, 0),
+            contentPadding: EdgeInsets.fromLTRB(10, 0, 0, 0),
             leading: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

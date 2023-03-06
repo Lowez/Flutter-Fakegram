@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ProfileScreen extends StatelessWidget {
@@ -8,6 +7,11 @@ class ProfileScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text('Profile');
+    return Text(
+      'Profile',
+      style: TextStyle(
+        color: Theme.of(context).colorScheme.secondary,
+      ),
+    );
   }
 }

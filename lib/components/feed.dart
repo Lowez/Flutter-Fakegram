@@ -12,7 +12,7 @@ class Feed extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: SizedBox(
-        height: 425,
+        height: 575,
         width: double.infinity,
         child: ListView.builder(
           itemCount: posts.length,

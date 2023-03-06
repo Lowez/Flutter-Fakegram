@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class SearchScreen extends StatelessWidget {
@@ -8,6 +7,11 @@ class SearchScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text('Search');
+    return Text(
+      'Search',
+      style: TextStyle(
+        color: Theme.of(context).colorScheme.secondary,
+      ),
+    );
   }
 }

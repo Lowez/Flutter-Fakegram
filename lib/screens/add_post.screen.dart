@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class AddPostScreen extends StatelessWidget {
@@ -8,6 +7,11 @@ class AddPostScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text('Add post');
+    return Text(
+      'Add post',
+      style: TextStyle(
+        color: Theme.of(context).colorScheme.secondary,
+      ),
+    );
   }
 }
