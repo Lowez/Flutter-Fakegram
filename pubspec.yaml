@@ -77,6 +77,9 @@ flutter:
     - family: DancingScript
       fonts:
         - asset: lib\assets\fonts\DancingScript-Regular.ttf
+    - family: Fontspring
+      fonts:
+        - asset: lib\assets\fonts\Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

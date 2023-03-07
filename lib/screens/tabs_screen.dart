@@ -38,7 +38,7 @@ class _TabsScreenState extends State<TabsScreen> {
           title: const Text(
             'Fakegram',
             style: TextStyle(
-              fontFamily: 'DancingScript',
+              fontFamily: 'Fontspring',
               fontSize: 32,
             ),
           ),
@@ -65,23 +65,38 @@ class _TabsScreenState extends State<TabsScreen> {
           // ignore: prefer_const_literals_to_create_immutables
           items: [
             const BottomNavigationBarItem(
-              icon: Icon(Icons.home_filled),
+              icon: Icon(
+                Icons.home_filled,
+                size: 30,
+              ),
               label: '',
             ),
             const BottomNavigationBarItem(
-              icon: Icon(Icons.search),
+              icon: Icon(
+                Icons.search,
+                size: 30,
+              ),
               label: '',
             ),
             const BottomNavigationBarItem(
-              icon: Icon(Icons.add_box_outlined),
+              icon: Icon(
+                Icons.add_box_outlined,
+                size: 30,
+              ),
               label: '',
             ),
             const BottomNavigationBarItem(
-              icon: Icon(Icons.video_collection_outlined),
+              icon: Icon(
+                Icons.video_collection_outlined,
+                size: 30,
+              ),
               label: '',
             ),
             const BottomNavigationBarItem(
-              icon: Icon(Icons.person),
+              icon: Icon(
+                Icons.person,
+                size: 30,
+              ),
               label: '',
             ),
           ],
